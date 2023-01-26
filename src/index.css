@@ -1,4 +1,138 @@
-* {
+*,
+*::before,
+*::after {
    box-sizing: border-box;
+   margin: 0;
+   padding: 0;
    font-family: 'Inter', sans-serif;
 }
+
+#root {
+   max-width: 22em;
+   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
+   0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
+   0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+   border-radius: 100px;
+   margin: 3em;
+ }
+
+body {
+   background-color: #23252c;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+p {
+   font-size: 0.75rem;
+   font-weight: 400;
+   line-height: 150%;
+ }
+
+.card {
+   background-color: #1A1B21;
+   color: #dcdcdc;
+   border-radius: 10px;
+
+}
+  
+.container {
+      padding: 0 2em 2em 2em;
+   }
+
+
+
+/* INFO */
+
+
+ .info {
+   text-align: center;
+ }
+
+.info--photo {
+   display: block;
+   width: 100%;
+   border-radius: 10px 10px 0 0;
+}
+
+.info--name {
+   margin-top: 1em;
+   padding: 0 2em;
+   font-weight: 700;
+ }
+ 
+ .info--role {
+   font-weight: 400;
+   color: #f3bf99;
+   margin-top: 6px;
+ }
+
+ .info--site {
+   padding: 1em;
+ }
+ 
+.info--btn {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   margin: 0px 35px 0px 35px;
+   padding: 9px 13px 9px 11px;
+   gap: 8px;
+   background: #FFFFFF;
+   border: 1px solid #D1D5DB;
+   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+   border-radius: 6px;
+   cursor: pointer;
+}
+
+.info--btn:hover {
+   filter: brightness(85%);
+ }
+
+.email {
+   color: #161619;
+   padding-top: 2px;
+}
+
+
+
+/* ABOUT */
+
+.about {
+   margin-top: 2em;
+ }
+
+ .about--title {
+   margin-bottom: 0.5em;
+ }
+
+
+
+ /* INTERESTS */
+
+.interests {
+   margin-top: 2em;
+ }
+
+.interests--title {
+   margin-bottom: 0.5em;
+ }
+
+
+
+ /* FOOTER */
+
+.footer {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: center;
+   padding: 1em 2em;
+   background-color: #161619;
+   border-radius: 0px 0px 10px 10px;
+ }
+
+.footer >img:hover {
+   filter: brightness(120%);
+ }

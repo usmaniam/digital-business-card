@@ -5,11 +5,11 @@ import Footer from "./components/Footer"
 
 function App() {
   return (
-    <div>
-      <div className="profile-info"> 
+    <div className="card">
       <Info />
-      <About />
-      <Interests />
+      <div className="container"> 
+        <About />
+        <Interests />
       </div>
       <Footer />
     </div>
