@@ -6,7 +6,7 @@ import github from '../assets/github-icon.png'
 
 function Footer() {
     return (
-      <div>
+      <div className="footer">
         <img src={twitter} alt="twitter icon" />
         <img src={facebook} alt="facebook icon" />
         <img src={instagram} alt="instagram icon" />

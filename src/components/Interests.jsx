@@ -1,4 +1,4 @@
-function App() {
+function Interests() {
     return (
       <div>
         <h4>Interests</h4>
@@ -9,5 +9,5 @@ function App() {
     )
   }
   
-  export default App
+  export default Interests
   

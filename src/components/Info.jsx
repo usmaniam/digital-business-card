@@ -1,16 +1,16 @@
+import email from '../assets/email-icon.png'
 import headshot from '../assets/headshot.png'
-import icon from '../assets/email-icon.png'
 
 function Info() {
    return (
-    <div>
-      <img src={headshot} />
-        <h3>Laura Smith</h3>
-        <p>Frontend Developer</p>
-        <p>laurasmith.website</p>
-      <div>
-        <img src={icon} />
-        <p>Email</p>
+    <div className="info">
+         <img src={headshot} alt="profile photo" />
+        <h3 className="title">Laura Smith</h3>
+        <p className="subtitle">Frontend Developer</p>
+        <p className="website">laurasmith.website</p>
+      <div className="btn">
+        <img src={email} alt="email icon" />
+        <p className="email">Email</p>
       </div>
     </div>
     )
